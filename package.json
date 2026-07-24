@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@iconify-json/carbon": "^1.2.1",
+    "@iconify-json/lucide": "latest",
+    "@iconify-json/simple-icons": "latest",
     "@slidev/cli": "^51.4.0",
     "@slidev/theme-default": "latest",
     "vue": "^3.5.13"

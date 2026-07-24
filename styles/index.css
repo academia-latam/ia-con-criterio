@@ -64,8 +64,8 @@
   margin: 0 0 0.6rem;
   color: var(--ac-ink);
 }
-.slidev-layout h1 { font-size: 3.1rem; }
-.slidev-layout h2 { font-size: 2.2rem; }
+.slidev-layout h1 { font-size: 3.3rem; }
+.slidev-layout h2 { font-size: 2.4rem; }
 .slidev-layout h3 {
   font-family: var(--font-mono);
   font-weight: 600;
@@ -250,3 +250,28 @@
 
 /* photo duotone reads a touch brighter than engravings on the paper */
 .duo.photo img { opacity: 1; filter: grayscale(1) contrast(1.05) brightness(1.03); mix-blend-mode: luminosity; }
+
+/* ---------- section-hero: full-bleed faded image on navy dividers ---------- */
+.section .section-hero {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 62%;
+  z-index: 0;
+  pointer-events: none;
+  background-size: cover;
+  background-position: center right;
+  filter: grayscale(1) contrast(1.05) brightness(0.95);
+  mix-blend-mode: luminosity;
+  opacity: 0.3;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.55) 38%, #000 100%);
+          mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.55) 38%, #000 100%);
+}
+.section .section-hero::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(to right, var(--ac-navy) 0%, rgba(11,28,69,0.35) 45%, transparent 100%);
+}
+
+/* ---------- key idea: no box, inline yellow highlight (replaces yellow callout) ---------- */
+.keyidea { font-size: 1.3rem; color: var(--ac-ink); max-width: 60ch; }
+.keyidea .lbl { display: block; font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem; color: var(--ac-blue); margin-bottom: 0.3rem; }
