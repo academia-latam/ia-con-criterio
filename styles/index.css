@@ -1,0 +1,170 @@
+/* AcademIAS — PLATE / PROTOCOL, adapted for Slidev (16:9).
+   Off-white paper · electric-blue matte frame · IBM Plex Mono body ·
+   Archivo display · Bodoni wordmark · blue duotone + engravings. */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Bodoni+Moda:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --ac-bg: #FAFCFE;
+  --ac-surface: #F4F7FB;
+  --ac-blue: #023BF2;
+  --ac-press: #032EBB;
+  --ac-inkblue: #022187;
+  --ac-navy: #0B1C45;
+  --ac-ink: #0F1624;
+  --ac-muted: #4D5566;
+  --ac-line: #DADEE6;
+  --ac-yellow: #EDF400;
+  --ac-fw: 8px; /* matte frame width */
+  --font-display: 'Archivo', system-ui, sans-serif;
+  --font-wordmark: 'Bodoni Moda', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+/* ---------- base slide ---------- */
+.slidev-layout {
+  font-family: var(--font-mono);
+  color: var(--ac-ink);
+  background: var(--ac-bg);
+  line-height: 1.5;
+  padding: 3rem 3.5rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* signature electric-blue matte frame on every slide */
+.slidev-layout::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: var(--ac-fw) solid var(--ac-blue);
+  pointer-events: none;
+  z-index: 40;
+}
+
+/* faint paper grain */
+.slidev-layout::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.045;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.slidev-layout > * { position: relative; z-index: 2; }
+
+/* ---------- type ---------- */
+.slidev-layout h1,
+.slidev-layout h2 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  margin: 0 0 0.6rem;
+  color: var(--ac-ink);
+}
+.slidev-layout h1 { font-size: 3.1rem; }
+.slidev-layout h2 { font-size: 2.2rem; }
+.slidev-layout h3 {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.4rem;
+}
+.slidev-layout p,
+.slidev-layout li { font-size: 1.15rem; line-height: 1.5; }
+.slidev-layout p { margin: 0 0 0.8rem; }
+.slidev-layout strong { color: var(--ac-inkblue); font-weight: 600; }
+.slidev-layout em {
+  font-style: normal;
+  background: var(--ac-yellow);
+  color: var(--ac-inkblue);
+  padding: 0 0.22em;
+}
+.slidev-layout a { color: var(--ac-blue); text-decoration: none; border-bottom: 1px solid var(--ac-blue); }
+
+/* uppercase mono kicker */
+.kicker {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  color: var(--ac-muted);
+}
+
+/* wordmark */
+.wordmark {
+  font-family: var(--font-wordmark);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ---------- lists: 7px blue squares ---------- */
+.slidev-layout ul { list-style: none; padding-left: 0; }
+.slidev-layout ul > li { position: relative; padding-left: 1.4rem; margin: 0.35rem 0; }
+.slidev-layout ul > li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0.62em;
+  width: 7px; height: 7px;
+  background: var(--ac-blue);
+  border-radius: 1px;
+}
+
+/* ---------- code ---------- */
+.slidev-layout :not(pre) > code {
+  background: var(--ac-surface);
+  color: var(--ac-inkblue);
+  padding: 1px 6px;
+  border: 1px solid var(--ac-line);
+  border-radius: 2px;
+  font-size: 0.85em;
+}
+.slidev-layout pre.shiki,
+.slidev-layout pre.slidev-code {
+  border: 1px solid var(--ac-line);
+  border-radius: 2px;
+  background: var(--ac-surface) !important;
+}
+
+/* ---------- dark (navy) slides ---------- */
+.ac-dark, .ac-dark .slidev-layout { background: var(--ac-navy); }
+.ac-dark, .ac-dark h1, .ac-dark h2, .ac-dark h3, .ac-dark p, .ac-dark li { color: var(--ac-bg); }
+.ac-dark strong { color: var(--ac-yellow); }
+.ac-dark .kicker { color: rgba(255,255,255,0.55); }
+.ac-dark ul > li::before { background: var(--ac-yellow); }
+.ac-dark a { color: var(--ac-yellow); border-color: var(--ac-yellow); }
+
+/* ---------- blue duotone image treatment (grayscale × ultramarine) ---------- */
+.duo { background: var(--ac-blue); overflow: hidden; display: inline-block; }
+.duo img {
+  display: block;
+  filter: grayscale(1) contrast(1.1) brightness(1.05);
+  mix-blend-mode: luminosity;
+  opacity: 0.92;
+}
+/* engraving on paper: multiply so white drops out */
+.engrave img { mix-blend-mode: multiply; filter: grayscale(1) contrast(1.05); }
+.engrave-neg img { mix-blend-mode: screen; filter: grayscale(1) invert(1); }
+
+/* image placeholder (mark spots for better illustrations later) */
+.ph {
+  border: 1.5px dashed var(--ac-blue);
+  background: repeating-linear-gradient(135deg, rgba(2,59,242,0.06), rgba(2,59,242,0.06) 10px, #F4F7FB 10px, #F4F7FB 20px);
+  color: var(--ac-inkblue);
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.04em; padding: 1rem;
+}
+
+/* footnote / source line */
+.src {
+  position: absolute; bottom: 1.1rem; left: 3.5rem; right: 3.5rem;
+  font-family: var(--font-mono); font-size: 0.6rem; color: var(--ac-muted);
+  border-top: 1px solid var(--ac-line); padding-top: 4px; z-index: 3;
+}
+.ac-dark .src { color: rgba(255,255,255,0.55); border-color: rgba(255,255,255,0.15); }
+
+/* slidev default heading anchor tweak */
+.slidev-layout :is(h1,h2,h3) + p { margin-top: 0.2rem; }
