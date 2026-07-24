@@ -41,8 +41,8 @@ layout: statement
 # La IA ya está aquí.<br />No es una predicción.
 
 <div class="mt-6 text-[1.3rem] text-muted max-w-3xl">
-Ya está en las tareas de tus estudiantes, en tus horas de planeación
-y en las decisiones que tomas cada semana. La pregunta no es <em>si</em>.
+Ya está en las tareas de tus estudiantes, en tus horas de planeación y en las
+decisiones que tomas cada semana. La pregunta no es <em>si</em>.
 Es <strong>con qué criterio</strong>.
 </div>
 
@@ -90,6 +90,7 @@ Convencer no es lo mismo que tener razón.
 [HESUS] · 3:30–4:15 · La frase que queremos que se lleven.
 Los modelos tienden a la adulación (sycophancy): te dan la vuelta para complacerte.
 El criterio es tuyo. La IA propone; tú decides. Sembrar la tesis del día.
+Guardar el gancho: por qué caemos en esto lo explicamos en "la IA no es humana".
 -->
 
 ---
@@ -117,7 +118,6 @@ El criterio es tuyo. La IA propone; tú decides. Sembrar la tesis del día.
 Técnica Freddy: un solo número, alto contraste. No una tabla.
 Cierre de la apertura y contrato con la audiencia:
 hoy trabajamos el criterio, no la herramienta de moda.
-Tesis explícita en pantalla la próxima: AUMENTAR, no DELEGAR.
 -->
 
 ---
@@ -166,97 +166,98 @@ Andrew Ng: "AI is the new electricity". Vamos a ver por qué, y hasta dónde.
   <div class="text-[1.1rem] text-muted">
     En 1880 la luz eléctrica era un espectáculo. Dos generaciones después
     era invisible: solo la notabas cuando <strong>fallaba</strong>.
-    <div class="mt-4">La IA va por el mismo camino. Hoy nos deslumbra; pronto será
-    parte del mobiliario. Por eso el momento de formar criterio es <strong>ahora</strong>.</div>
+    <div class="mt-4">Y borró oficios enteros: el <strong>farolero</strong> recorría la ciudad
+    cada noche encendiendo faroles. Nadie contrató faroleros <em>más rápidos</em>.
+    El oficio simplemente desapareció.</div>
   </div>
 </div>
 
 <!--
-[GABY] · 6:20–7:30 · Del asombro a la infraestructura.
-Ejemplo del farolero: una profesión entera reemplazada por un gesto.
+[GABY] · 6:20–7:30 · Del asombro a la infraestructura + primer golpe emocional.
+El farolero: una profesión entera reemplazada por un gesto (el interruptor).
 Pregunta al público (chat): ¿qué tareas de hoy son nuestros "faroleros"?
+Nota (sin mito): la "guerra de corrientes" fue corporativa (ganó la CA por economía);
+si alguien pregunta, aclarar que lo de Edison y la elefanta Topsy es mito (1903, él ausente).
 -->
 
 ---
 
-<div class="kicker mb-2">Cuidado con el mito</div>
+<div class="kicker mb-2">Lo que de verdad estaba en juego</div>
 
-## La "guerra de las corrientes" no fue un duelo de genios
+## No cambió una tarea. Cambió el <span class="text-blue">mundo del trabajo.</span>
 
-<div class="grid grid-cols-2 gap-6 mt-5">
-  <div class="ac-card">
-    <div class="ac-label text-blue mb-1">Lo que de verdad pasó</div>
-    Fue una guerra <strong>corporativa</strong> por un estándar: cómo distribuir energía
-    a escala. Ganó la corriente alterna (Tesla/Westinghouse) por <strong>economía</strong>,
-    no por fama: Feria de Chicago 1893, Niágara 1896.
+<div class="grid grid-cols-3 gap-4 mt-6 text-[1.02rem]">
+  <div class="ac-card"><div class="ac-idx mb-1">Se fueron</div>Faroleros. Hieleros y repartidores de hielo (los borró el refrigerador). Telefonistas.</div>
+  <div class="ac-card"><div class="ac-idx mb-1">Llegaron</div>Electricistas, linieros, industrias enteras, fábricas de electrodomésticos y su reparación.</div>
+  <div class="ac-callout text-ink"><div class="ac-idx text-blue mb-1">La verdad incómoda</div>No fue <strong>uno por uno</strong>, ni rápido, ni para las mismas personas. El farolero no se volvió electricista solo.</div>
+</div>
+
+<div class="mt-5 text-[1.05rem] text-muted">Por eso el rol del docente no es opcional: <strong>acompañar esa transición ES el trabajo.</strong></div>
+
+<!--
+[GABY→HESUS] · 7:30–9:00 · El cuadro GLOBAL (lo que pedía Hesus): transformación del trabajo.
+No hablar de poleas: hablar de oficios que nacieron y murieron a gran escala.
+Honestidad sin catástrofe: hay reacomodo, y es desigual. Puente a los estudiantes:
+¿para qué mundo laboral los preparamos? Hesus puede tomar el hilo pedagógico.
+-->
+
+---
+
+<div class="kicker mb-2">Cómo nombramos lo nuevo</div>
+
+## "Caballos de fuerza"
+
+<div class="grid grid-cols-2 gap-6 mt-4 items-center">
+  <div class="text-[1.15rem] text-muted">
+    Cuando llegó el motor, lo medimos en <strong>caballos</strong>: "hace el trabajo de 40 caballos".
+    <div class="mt-4">Fue <strong>conveniente</strong>: entendíamos lo nuevo con lo que ya conocíamos.</div>
+    <div class="mt-4 text-ink font-display text-[1.5rem] leading-tight">Pero nadie pensó que había caballos dentro del motor.</div>
   </div>
-  <div class="ac-callout-yellow text-ink">
-    <div class="ac-label mb-1">Mitos que NO vamos a repetir</div>
-    Edison <em>no</em> electrocutó a la elefanta Topsy para atacar la corriente alterna
-    (eso fue en 1903, y él no estuvo). No fue un duelo Edison–Tesla de película.
+  <div class="ac-callout-yellow text-ink self-center text-[1.1rem]">
+    Hoy hacemos lo mismo con la IA: decimos <strong>"redes neuronales"</strong>, que "aprende",
+    que "piensa". Etiquetas prestadas de lo humano… igual que los caballos.
+    <div class="mt-2 ac-label text-blue">Guarda esta idea. La retomamos en un minuto.</div>
   </div>
 </div>
 
-<div class="src">Fuentes: Rutgers Edison Papers — "The Current Wars" y "Myth-Buster: Topsy".</div>
-
 <!--
-[GABY] · 7:30–8:45 · Desmitificar con rigor (modela criterio).
-El punto pedagógico: verificamos hasta las historias "que todos sabemos".
-Esto MODELA el hábito que pediremos a los docentes: contrastar antes de repetir.
-Guiño a la IA: hoy también hay mucho mito y mucha exageración.
+[GABY] · 9:00–10:00 · El puente metafórico (idea de Hesus).
+"Caballos de fuerza" = medir/nombrar lo nuevo con lo viejo, por conveniencia.
+Es la rampa hacia el anti-patrón "la IA no es humana" (más adelante, en la sección del coche).
+Que quede la imagen: la etiqueta no es la cosa.
 -->
 
 ---
 
 <div class="kicker mb-2">La lección más importante para tu aula</div>
 
-## Tener la tecnología no basta. Hay que <span class="text-blue">rediseñar el trabajo.</span>
+## Tener la máquina no basta. Hay que <span class="text-blue">rediseñar el trabajo.</span>
 
 <div class="grid grid-cols-2 gap-6 mt-4">
   <div class="ac-card">
-    <div class="ac-label mb-1">Fábrica de vapor (antes)</div>
-    Un motor gigante y un enredo de correas moviendo todo. Cambian el vapor por
-    un motor eléctrico… y <strong>nada mejora</strong>.
+    <div class="ac-label mb-1">Lo que pasó de verdad</div>
+    Las fábricas compraron el motor eléctrico… y lo pusieron a hacer <strong>exactamente lo mismo</strong>
+    que antes. Resultado: <strong>casi cero ganancia durante 40 años</strong>.
   </div>
   <div class="ac-card-blue">
-    <div class="ac-label text-blue mb-1">Fábrica eléctrica (después)</div>
-    Un motor pequeño en cada máquina, en el orden en que fluye el trabajo.
-    <strong>Ahí</strong> llegó la productividad… <strong>40 años después</strong>.
+    <div class="ac-label text-blue mb-1">Cuándo llegó el salto</div>
+    La productividad apareció cuando <strong>rediseñaron cómo se trabajaba</strong>,
+    no cuando compraron la máquina.
   </div>
 </div>
 
 <div class="mt-4 ac-callout text-ink text-[1.05rem]">
-Meter IA en la misma clase de siempre es "el motorcito sobre las viejas correas".
-La ganancia llega cuando <strong>rediseñas la actividad</strong>, y eso es pedagogía, no tecnología.
+Meter IA en la misma clase de siempre — "la misma tarea, ahora con ChatGPT" — es comprar el motor y no cambiar nada.
+<strong>La ganancia es pedagógica, no tecnológica.</strong>
 </div>
 
-<div class="src">Fuente: Paul David, "The Dynamo and the Computer" (1990); Devine (1983).</div>
+<div class="src">Fuente: Paul David, "The Dynamo and the Computer" (1990).</div>
 
 <!--
-[GABY→HESUS] · 8:45–10:30 · Knowles: aplicación al mundo del docente. LA DIAPOSITIVA CLAVE.
-El rezago de ~40 años: los motores estaban, pero la fábrica seguía diseñada para el vapor.
-Traducción: "dar la misma tarea, ahora con ChatGPT" no mejora nada.
-Hesus puede tomar aquí el hilo pedagógico. Este es el argumento que más recordarán.
--->
-
----
-
-<div class="kicker mb-2">Empleos: la verdad incómoda y la esperanza</div>
-
-## Unos oficios desaparecieron. Otros nacieron. No fue automático.
-
-<div class="grid grid-cols-3 gap-4 mt-6 text-[1rem]">
-  <div class="ac-card"><div class="ac-idx">↓</div> Faroleros, hieleros y repartidores de hielo (los mató el refrigerador).</div>
-  <div class="ac-card"><div class="ac-idx">↑</div> Electricistas, linieros, fábricas y reparación de electrodomésticos.</div>
-  <div class="ac-callout text-ink"><div class="ac-idx text-blue">≠</div> El farolero <strong>no</strong> se volvió electricista solo. La transición fue lenta y desigual.</div>
-</div>
-
-<div class="mt-5 text-[1.05rem] text-muted">Por eso el rol del docente no es opcional: acompañar esa transición <strong>es</strong> el trabajo.</div>
-
-<!--
-[HESUS] · 10:30–11:30 · Honestidad sin catastrofismo.
-Ni "no pasa nada" ni "nos reemplazan a todos". Sí hay reacomodo, y es desigual.
-Puente a los estudiantes: ¿para qué mundo laboral los estamos preparando?
+[HESUS] · 10:00–11:30 · LA DIAPOSITIVA CLAVE (reenfocada: menos poleas, más "rediseñar el trabajo").
+El rezago de ~40 años: tenían la máquina, pero seguían trabajando igual.
+Traducción directa: "dar la misma tarea, ahora con ChatGPT" no mejora nada.
+Este es el argumento que más recordarán. Conecta con la Pregunta 3 (evaluación).
 -->
 
 ---
@@ -285,10 +286,9 @@ Fue una decisión de **equidad**.
 </div>
 
 <!--
-[GABY] · 11:30–13:00 · Holds vs breaks (versión breve).
-La electrificación rural es un gran ejemplo de equidad: útil para hablar de la
-brecha digital en América Latina. La regulación es normal, no es censura.
-Preparar el terreno para "las 6 preguntas": ya vimos el marco, ahora lo práctico.
+[GABY] · 11:30–12:45 · Holds vs breaks (breve).
+La electrificación rural = gran ejemplo de equidad (brecha digital en América Latina).
+Regular es normal, no es censura. Puente a "cómo funciona esta cosa".
 -->
 
 ---
@@ -302,33 +302,88 @@ layout: section
 <div class="mt-8 kicker">Andragogía · orientación / desmitificar</div>
 
 <!--
-[HESUS] · 13:00–13:20 · Knowles: ORIENTATION.
+[HESUS] · 12:45–13:05 · Knowles: ORIENTATION.
 La analogía del coche. No hace falta abrir el motor. Pero sí saber cómo se comporta,
-tener licencia, respetar las reglas y usar criterio. Igual con la IA.
+cómo se accidenta, tener licencia y usar criterio. Primero: qué NO es esta cosa.
+-->
+
+---
+
+<div class="kicker mb-2">El anti-patrón más importante</div>
+
+## La IA no es humana <span class="text-muted text-[1.6rem]">(aunque hable como si lo fuera).</span>
+
+<div class="grid grid-cols-2 gap-6 mt-4 text-[1.1rem]">
+  <div class="ac-card">
+    Decimos "red neuronal", que "aprende", "entiende", "piensa". Metáforas convenientes…
+    <strong>igual que "caballos de fuerza"</strong>.
+    <div class="mt-3 font-display text-[1.4rem] text-ink leading-tight">No hay caballos en el motor. No hay una mente en la IA.</div>
+  </div>
+  <div class="ac-callout-yellow text-ink">
+    Predice palabras. <strong>No comprende, no siente, no te conoce.</strong>
+    <div class="mt-3">Tratarla como persona es la trampa: por eso creemos su "¡tienes razón!"
+    y por eso <strong>delegamos el criterio</strong>. Es una herramienta poderosa, no un colega que sabe.</div>
+  </div>
+</div>
+
+<div class="mt-4 text-[1.05rem] text-muted">Úsala como lo que es. Ahí empieza el criterio.</div>
+
+<!--
+[HESUS] · 13:05–15:00 · ANTI-PATRÓN CLAVE (idea de Hesus). Amarra todo el hilo.
+Caballos de fuerza → redes neuronales → no es humana → no la trates como persona →
+no delegues tu juicio. Cierra el gancho de "¡tienes razón!" (creemos una señal social
+que no existe). Antropomorfizar es cómo bajamos la guardia.
 -->
 
 ---
 
 <div class="kicker mb-2">Lo justo para no delegar tu juicio</div>
 
-## Cómo se comporta el "motor" (sin tecnicismos)
+## No abras el motor. Sí sabe cómo se <span class="text-blue">accidenta.</span>
 
 <div class="grid grid-cols-3 gap-4 mt-6 text-[1rem]">
   <div class="ac-card"><div class="ac-label text-blue mb-1">Predice la siguiente palabra</div>No "sabe" ni "entiende". Calcula qué palabra sigue, una tras otra. Por eso suena tan fluido.</div>
-  <div class="ac-card"><div class="ac-label text-blue mb-1">Vive en su contexto</div>Solo "ve" lo que está en la conversación (su ventana de contexto). Fuera de ahí, no recuerda.</div>
+  <div class="ac-card"><div class="ac-label text-blue mb-1">Solo ve su contexto</div>Únicamente "ve" lo que está en la conversación (su ventana de contexto). Fuera de ahí, no recuerda.</div>
   <div class="ac-card"><div class="ac-label text-blue mb-1">Alucina</div>Cuando no sabe, <strong>inventa</strong> con total seguridad: datos, citas, autores. No es un error raro; es cómo funciona.</div>
 </div>
 
 <div class="mt-5 ac-callout-yellow text-ink text-[1.05rem]">
-Saber esto cambia todo: si predice palabras y a veces inventa, <strong>tú tienes que verificar</strong>.
-El criterio no se puede delegar a algo que no distingue verdad de verosimilitud.
+Predice, se le acaba el contexto y a veces inventa. Por eso <strong>tú tienes que verificar</strong>.
+El criterio no se delega a algo que no distingue verdad de verosimilitud.
 </div>
 
 <!--
-[HESUS] · 13:20–15:30 · Knowles: literacy accesible (el usuario lo pidió explícito).
-Objetivo: que un docente entienda "tokens/contexto/alucinación" en lenguaje humano.
-Analogía: un estudiante brillante y seguro de sí mismo que a veces inventa la respuesta
-para no quedar mal. No lo castigas; lo verificas. Conecta con "¡tienes razón!".
+[HESUS] · 15:00–16:30 · Literacy accesible (tokens/contexto/alucinación en lenguaje humano).
+Marco de "cómo se accidenta un coche": derrapa, punto ciego, frenos con límite.
+Analogía: un estudiante brillante y muy seguro que a veces inventa para no quedar mal.
+No lo castigas; lo verificas. Conecta con el anti-patrón y con "¡tienes razón!".
+-->
+
+---
+
+<div class="kicker mb-2">La regla de oro del coche</div>
+
+## Control crucero, <span class="text-blue">no piloto automático.</span>
+
+<div class="grid grid-cols-2 gap-6 mt-5 text-[1.1rem]">
+  <div class="ac-card">
+    <div class="ac-label text-blue mb-1">Aumentar (bien)</div>
+    La IA es como el control crucero: mantiene la velocidad, te quita carga.
+    <strong>Tú sigues con las manos en el volante y los ojos en la carretera.</strong>
+  </div>
+  <div class="ac-callout-yellow text-ink">
+    <div class="ac-label mb-1">Delegar (el choque)</div>
+    En el momento en que dices "el coche ya maneja" y <strong>sueltas el volante</strong>, chocas.
+    NotebookLM sin leer, calificar sin mirar, creer el "tienes razón": soltar el volante.
+  </div>
+</div>
+
+<div class="mt-4 text-[1.05rem] text-muted">Esa es toda la diferencia entre aumentar tu juicio y entregárselo.</div>
+
+<!--
+[HESUS] · 16:30–17:45 · LA ANALOGÍA DEL COCHE, on-thesis (idea de Hesus).
+Control crucero = asiste; piloto automático (soltar el volante) = delega.
+Es la versión física de "aumentar vs delegar". Muy memorable; repetir el gesto de "soltar el volante".
 -->
 
 ---
@@ -347,10 +402,9 @@ para no quedar mal. No lo castigas; lo verificas. Conecta con "¡tienes razón!"
 <div class="mt-5 text-[1.05rem] text-muted">Eso es "conducir con criterio". No hace falta abrir el motor para llegar seguro.</div>
 
 <!--
-[HESUS] · 15:30–16:30 · Cierre de la analogía y puente a lo práctico.
-Estas cuatro cosas son la "licencia". Las tres primeras las retomamos en la pregunta
-de privacidad/regulación; la verificación, en la de alucinaciones.
-Transición: "ahora sí, las preguntas que todos nos hacemos".
+[HESUS] · 17:45–18:45 · Cierre de la analogía y puente a lo práctico.
+Estas cuatro cosas son la "licencia". Privacidad/regulación/derechos se retoman en la Pregunta 2;
+verificación, en la Pregunta 4. Transición: "ahora, las preguntas que todos nos hacemos".
 -->
 
 ---
@@ -364,7 +418,7 @@ layout: section
 <div class="mt-8 kicker">Andragogía · centrado en el problema · aplicación inmediata</div>
 
 <!--
-[AMBOS] · 16:30–16:50 · Knowles: PROBLEM-CENTERED.
+[AMBOS] · 18:45–19:05 · Knowles: PROBLEM-CENTERED.
 El bloque más práctico. Alternar voces: Gaby en herramientas/privacidad, Hesus en
 evaluación/habilidades. Respuestas breves y accionables. Referir a proyectos y gente real.
 -->
@@ -392,9 +446,8 @@ evaluación/habilidades. Respuestas breves y accionables. Referir a proyectos y 
 <div class="src">Fuentes: MultiState y ExcelinEd (política 2026); UNESCO LAC.</div>
 
 <!--
-[GABY] · 16:50–18:20 · De prohibir a gobernar.
-Aterrizar a la realidad del docente: acuerdo de aula, declarar cuándo se usó IA.
-Ejemplo concreto y cercano mejor que estadística. (Refinar el ejemplo al construir.)
+[GABY] · 19:05–20:20 · De prohibir a gobernar.
+Aterrizar al aula: acuerdo de aula, declarar cuándo se usó IA. Ejemplo cercano > estadística.
 -->
 
 ---
@@ -424,9 +477,29 @@ Ejemplo concreto y cercano mejor que estadística. (Refinar el ejemplo al constr
 <div class="src">Fuentes: comparativas para docentes 2026; políticas de privacidad por plan.</div>
 
 <!--
-[GABY] · 18:20–20:00 · Neutralidad total (Hesus/Claude: sin favoritismos).
-No mencionar números de versión: cambian cada pocos meses.
-El mensaje que importa: mira el PLAN y la política de datos, no el logo.
+[GABY] · 20:20–22:00 · Neutralidad total. Sin números de versión (cambian cada pocos meses).
+El mensaje: mira el PLAN y la política de datos, no el logo.
+-->
+
+---
+
+<div class="kicker mb-2">Pregunta 3 · ¿ya vivimos esto?</div>
+
+## La calculadora
+
+<div class="grid grid-cols-2 gap-6 mt-4 items-center">
+  <div class="ph h-52">Ilustración: calculadora de los 70 junto a un teléfono con IA. [placeholder — mejorar después]</div>
+  <div class="text-[1.15rem] text-muted">
+    Cuando llegó, cundió el pánico: <em>"ya no van a aprender a hacer cuentas"</em>.
+    <div class="mt-3">No la prohibimos. <strong>Cambiamos qué evaluábamos</strong>: de la aritmética
+    a mano, al razonamiento.</div>
+    <div class="mt-3 text-ink font-display text-[1.4rem] leading-tight">La IA es el momento-calculadora de escribir y pensar.</div>
+  </div>
+</div>
+
+<!--
+[HESUS] · 22:00–23:00 · Analogía nativa del aula (idea de Hesus). Desactiva el pánico.
+La pregunta no es "cómo los atrapo", sino "qué vale la pena evaluar ahora". Puente a la evaluación.
 -->
 
 ---
@@ -446,9 +519,8 @@ El mensaje que importa: mira el PLAN y la política de datos, no el logo.
 <div class="src">Fuentes: marco de cuatro pilares (Frontiers 2026); marco PROTECT (UW-Extension).</div>
 
 <!--
-[HESUS] · 20:00–22:00 · Knowles: aplicación directa a su práctica.
-La idea Khan: antes de prohibir, pregunta para qué sirve la tarea, y rediséñala.
-Conecta con "rediseñar el trabajo" (electricidad). Ejemplo de una tarea real rediseñada.
+[HESUS] · 23:00–24:30 · Knowles: aplicación directa. Rediseñar la tarea (conecta con la electricidad).
+Idea Khan: antes de prohibir, pregunta para qué sirve la tarea. Ejemplo de una tarea real rediseñada.
 -->
 
 ---
@@ -456,6 +528,11 @@ Conecta con "rediseñar el trabajo" (electricidad). Ejemplo de una tarea real re
 <div class="kicker mb-2">Pregunta 4</div>
 
 ## ¿Cómo detectar errores e información inventada?
+
+<div class="ac-callout text-ink text-[1.1rem] mt-2">
+Como el <strong>GPS</strong>: úsalo, pero quien lo sigue a ciegas <strong>termina en el lago</strong>.
+Usarlo bien = saber a dónde vas y cachar cuándo se equivoca.
+</div>
 
 <div class="grid grid-cols-2 gap-6 mt-4">
   <div class="ac-callout-yellow text-ink">
@@ -476,9 +553,9 @@ Conecta con "rediseñar el trabajo" (electricidad). Ejemplo de una tarea real re
 <div class="src">Fuentes: Liang et al. (2023) + estudios 2026 sobre sesgo de detectores.</div>
 
 <!--
-[HESUS] · 22:00–24:00 · El hábito estrella: verificar.
-Conecta con "alucina". Los detectores son injustos justo con nuestros estudiantes
-(que muchas veces escriben en inglés como L2). Verificación > detección, siempre.
+[HESUS] · 24:30–26:15 · GPS (idea de Hesus) + el hábito estrella: verificar.
+GPS = usar la herramienta sin apagar tu sentido de orientación (no delegar).
+Los detectores son injustos justo con nuestros estudiantes (L2). Verificar > detectar.
 -->
 
 ---
@@ -507,10 +584,9 @@ Conecta con "alucina". Los detectores son injustos justo con nuestros estudiante
 <div class="src">Fuente: Walton Family Foundation / Gallup, jun. 2025 (encuesta de referencia).</div>
 
 <!--
-[GABY] · 24:00–26:00 · El beneficio tangible (motivación).
-Presentar 5.9 h como "la mejor evidencia disponible", no como ley.
-"Recetas": aquí prometemos un material aparte con prompts listos (NO en este deck).
-Diferenciar es el caso de oro para aulas con niveles mixtos.
+[GABY] · 26:15–27:45 · El beneficio tangible (motivación).
+5.9 h = "la mejor evidencia disponible", no ley. "Recetas" (prompts listos) van en material aparte.
+Diferenciar = el caso de oro para aulas con niveles mixtos.
 -->
 
 ---
@@ -535,9 +611,8 @@ funciona… y <strong>mantener la agencia humana</strong>.
 <div class="src">Fuente: UNESCO — Marcos de competencias en IA para estudiantes y docentes (2026).</div>
 
 <!--
-[HESUS] · 26:00–27:30 · Knowles: hacia dónde formamos.
-No es "aprender a programar". Es criterio, ética y verificación.
-Nota: hay marco oficial en español; recurso concreto para llevarse.
+[HESUS] · 27:45–29:00 · Knowles: hacia dónde formamos.
+No es "aprender a programar". Es criterio, ética y verificación. Hay marco oficial en español.
 Transición al bloque de "criterio": hype vs realidad.
 -->
 
@@ -552,7 +627,7 @@ layout: section
 <div class="mt-8 kicker">Andragogía · aprendiz autodirigido / juicio propio</div>
 
 <!--
-[HESUS] · 27:30–27:50 · Knowles: SELF-DIRECTED.
+[HESUS] · 29:00–29:20 · Knowles: SELF-DIRECTED.
 Dos voces de referencia: Freddy Vega (energía) y Sal Khan (mesura educativa).
 Tomamos lo mejor de cada uno con criterio propio.
 -->
@@ -567,13 +642,13 @@ layout: statement
 
 <div class="mt-6 text-[1.2rem] text-muted max-w-3xl">
 "Hacer un NotebookLM" y presentarlo sin leerlo. Aceptar "tienes razón" sin dudar.
-Calificar sin volver a mirar. En todos, alguien apagó su juicio.
+Calificar sin volver a mirar. En todos, alguien soltó el volante.
 Usar IA con criterio es lo contrario: <strong>seguir decidiendo tú.</strong>
 </div>
 
 <!--
-[HESUS] · 27:50–29:00 · El filo de la tesis.
-Retomar las cuatro escenas del inicio: todas eran delegación de criterio.
+[HESUS] · 29:20–30:20 · El filo de la tesis.
+Retomar las cuatro escenas del inicio y el "soltar el volante": todas eran delegación.
 Delegar tareas mecánicas: bien. Delegar el juicio: ahí se pierde el docente.
 -->
 
@@ -592,7 +667,7 @@ Nos quedamos con su empuje y sus frases memorables: <em>aprender es un acto de v
 </div>
 
 <!--
-[HESUS] · 29:00–30:00 · BORROW.
+[HESUS] · 30:20–31:10 · BORROW.
 Freddy comunica genial: abre con una confesión, usa un dato que sacude, deja frases
 que se repiten. Todo eso lo tomamos. Ahora, el matiz importante (siguiente slide).
 -->
@@ -618,10 +693,9 @@ que se repiten. Todo eso lo tomamos. Ahora, el matiz importante (siguiente slide
 <div class="mt-4 text-[1.05rem] text-muted">Diseñamos <strong>para</strong> el bajo recurso: en español, para pantalla compartida, sin dar por hecho lo que no hay.</div>
 
 <!--
-[HESUS] · 30:00–31:30 · CONTRAST (blindspots de Freddy).
-No descalificar: matizar. Individualizar la pobreza ("el pobre es pobre porque quiere")
-no funciona con un docente cuyos estudiantes faltan por trabajar.
-Prohibir pantallas es un lujo si el celular es el único acceso.
+[HESUS] · 31:10–32:30 · CONTRAST (blindspots de Freddy).
+No descalificar: matizar. Individualizar la pobreza no funciona con un docente cuyos
+estudiantes faltan por trabajar. Prohibir pantallas es un lujo si el celular es el único acceso.
 -->
 
 ---
@@ -640,7 +714,7 @@ estudiante, con transparencia y método socrático (que no da la respuesta, hace
 </div>
 
 <!--
-[HESUS] · 31:30–33:00 · La otra voz, más mesurada.
+[HESUS] · 32:30–33:50 · La otra voz, más mesurada.
 Khan gana credibilidad porque es educador, no vendedor de tecnología.
 "Elevar, no reemplazar": libera al docente para lo humano.
 El "2 sigma" (Bloom): preséntalo como su idea/marco, no como hecho cerrado.
@@ -670,9 +744,8 @@ El "2 sigma" (Bloom): preséntalo como su idea/marco, no como hecho cerrado.
 <div class="src">Fuente: Lancieri, Edelson et al., "AI Regulation: …Regulatory Capture" (Georgetown).</div>
 
 <!--
-[HESUS] · 33:00–34:15 · Provocación acotada y aterrizada al aula (como pidió el usuario).
-Dar la versión honesta fuerte Y sus límites. Nada de distopía.
-Regresar rápido a lo accionable: tu criterio en clase es donde tú mandas.
+[HESUS] · 33:50–35:00 · Provocación acotada y aterrizada al aula (idea de Hesus).
+Versión honesta fuerte Y sus límites. Nada de distopía. Volver a lo accionable rápido.
 -->
 
 ---
@@ -688,9 +761,8 @@ Regresar rápido a lo accionable: tu criterio en clase es donde tú mandas.
 </div>
 
 <!--
-[AMBOS] · 34:15–35:30 · Cierre del bloque de criterio.
-Es el equilibrio entre "es inevitable" y "cuidado con la prisa".
-Puente al cierre práctico: qué haces el lunes.
+[AMBOS] · 35:00–36:15 · Cierre del bloque de criterio.
+Equilibrio entre "es inevitable" y "cuidado con la prisa". Puente al cierre práctico.
 -->
 
 ---
@@ -704,7 +776,7 @@ layout: section
 <div class="mt-8 kicker">Andragogía · disposición a aprender / motivación interna</div>
 
 <!--
-[GABY] · 35:30–35:50 · Knowles: READINESS.
+[GABY] · 36:15–36:35 · Knowles: READINESS.
 Nada abstracto. Tres acciones pequeñas y posibles esta misma semana.
 -->
 
@@ -721,7 +793,7 @@ Nada abstracto. Tres acciones pequeñas y posibles esta misma semana.
 </div>
 
 <!--
-[GABY→HESUS] · 35:50–38:00 · Aplicación inmediata.
+[GABY→HESUS] · 36:35–38:45 · Aplicación inmediata.
 Que cada docente elija UNA y la nombre en el chat. Compromiso pequeño = compromiso real.
 Recordar que las "recetas" (prompts listos) llegan como material aparte.
 -->
@@ -741,7 +813,7 @@ Aprender a usarla es, también, un acto de valentía.
 </div>
 
 <!--
-[AMBOS] · 38:00–39:30 · Cierre emocional (deber de optimismo, con los pies en la tierra).
+[AMBOS] · 38:45–40:15 · Cierre emocional (deber de optimismo, con los pies en la tierra).
 Frase para llevarse. Optimismo honesto: sí se puede, dentro de las condiciones reales.
 -->
 
@@ -771,9 +843,8 @@ Frase para llevarse. Optimismo honesto: sí se puede, dentro de las condiciones 
 <div class="mt-8 text-[1.15rem] text-ink">Gracias. Ahora, sus preguntas. <span class="text-muted">Empezamos por la clase, no por la herramienta.</span></div>
 
 <!--
-[AMBOS] · 39:30–42:00 · Cierre + Q&A. SIN VENTA.
-Solo quiénes somos y agradecer. Nada de promoción.
-Abrir el chat/micrófono para preguntas. Guardar tiempo para 2–3 dudas.
+[AMBOS] · 40:15–43:00 · Cierre + Q&A. SIN VENTA.
+Solo quiénes somos y agradecer. Nada de promoción. Abrir chat/micrófono; guardar tiempo para 2–3 dudas.
 -->
 
 ---
