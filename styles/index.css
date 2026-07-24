@@ -174,8 +174,13 @@
 .slidev-quick-overview,
 .slidev-goto-dialog { display: none !important; }
 
-/* ---------- kill bottom whitespace: vertically center default-layout content ---------- */
-.slidev-layout.default { display: flex; flex-direction: column; justify-content: center; }
+/* ---------- title pinned top; body fills & centers the rest ---------- */
+.slidev-layout.default,
+.slidev-layout.ac-diagram,
+.slidev-layout.ac-agenda,
+.slidev-layout.ac-fact,
+.slidev-layout.ac-split { display: flex; flex-direction: column; justify-content: flex-start; }
+.slide-body { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
 
 /* round duotone avatar (cover + closing) */
 .duo.round { border-radius: 50%; }
@@ -230,3 +235,18 @@
 .dneg { color: var(--ac-muted); font-weight: 600; }
 .drule-dot { width: 100%; border: 0; border-top: 1.5px dashed var(--ac-line); margin: 0.5rem 0; }
 .dsum { font-family: var(--font-mono); font-size: 0.95rem; color: var(--ac-ink); text-align: center; }
+
+/* ---------- comparison table ---------- */
+.actable { width: 100%; border-collapse: collapse; font-family: var(--font-mono); }
+.actable th, .actable td {
+  border: 1px solid var(--ac-line); padding: 0.5rem 0.7rem;
+  text-align: left; vertical-align: top; font-size: 0.95rem; color: var(--ac-ink); line-height: 1.35;
+}
+.actable thead th { background: var(--ac-surface); text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.82rem; }
+.actable tbody th { background: #fff; font-weight: 600; width: 22%; }
+.actable td.dim { color: var(--ac-muted); }
+.actable .yes { color: var(--ac-blue); font-weight: 700; }
+.actable .no { color: var(--ac-muted); font-weight: 700; }
+
+/* photo duotone reads a touch brighter than engravings on the paper */
+.duo.photo img { opacity: 1; filter: grayscale(1) contrast(1.05) brightness(1.03); mix-blend-mode: luminosity; }

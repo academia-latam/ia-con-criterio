@@ -10,11 +10,11 @@
     <div class="ac-rule pt-3 flex items-center justify-between">
       <div class="flex items-center gap-6">
         <div class="flex items-center gap-3">
-          <div class="duo round w-12 h-12"><img src="/img/team-gaby.webp" alt="Gabriela" /></div>
+          <div class="duo round photo w-12 h-12"><Img src="img/team-gaby.webp" alt="Gabriela" /></div>
           <div class="font-mono text-[0.72rem] leading-tight text-ink">Gabriela González<br /><span class="text-muted">directora AcademIA</span></div>
         </div>
         <div class="flex items-center gap-3">
-          <div class="duo round w-12 h-12"><img src="/img/team-hesus.webp" alt="Hesus" /></div>
+          <div class="duo round photo w-12 h-12"><Img src="img/team-hesus.webp" alt="Hesus" /></div>
           <div class="font-mono text-[0.72rem] leading-tight text-ink">Hesus García<br /><span class="text-muted">mtro. en Pedagogía</span></div>
         </div>
       </div>
