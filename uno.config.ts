@@ -1,13 +1,9 @@
-import { defineConfig, presetIcons } from 'unocss'
+import { defineConfig } from 'unocss'
 
 // AcademIAS brand — "PLATE / PROTOCOL": off-white paper, electric-blue frame,
 // monospace body, Archivo display, engravings + blue duotone. Hard edges.
-// presetIcons merges with Slidev's presets (mergeConfigs concatenates); autoInstall
-// guarantees the @iconify-json collections resolve at build even if not pre-installed.
+// (Icons are inline SVG via components/Ico.vue — no iconify dependency.)
 export default defineConfig({
-  presets: [
-    presetIcons({ autoInstall: true }),
-  ],
   shortcuts: {
     // Surfaces & chrome
     'ac-hair': 'border border-[#DADEE6]',

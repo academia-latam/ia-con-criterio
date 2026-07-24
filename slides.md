@@ -286,10 +286,10 @@ comporta y cómo se accidenta. Primero: qué NO es esta cosa.
 
 <div class="slide-body">
 <div class="grid grid-cols-2 gap-6 text-[1.3rem] text-ink">
-  <div class="ac-card p-6"><span class="i-lucide-cpu w-7 h-7 text-blue" /><div class="mt-2">Decimos "red neuronal", que "aprende", "piensa". Metáforas convenientes, igual que "caballos de fuerza".</div>
+  <div class="ac-card p-6"><Ico name="cpu" class="w-7 h-7 text-blue" /><div class="mt-2">Decimos "red neuronal", que "aprende", "piensa". Metáforas convenientes, igual que "caballos de fuerza".</div>
     <div class="mt-3 font-display text-[1.5rem] text-ink leading-tight">No hay caballos en el motor. No hay una mente en la IA.</div>
   </div>
-  <div class="ac-card p-6"><span class="i-lucide-message-square-warning w-7 h-7 text-blue" /><div class="mt-2">Predice palabras. <strong>No comprende, no siente, no te conoce.</strong></div>
+  <div class="ac-card p-6"><Ico name="message-square-warning" class="w-7 h-7 text-blue" /><div class="mt-2">Predice palabras. <strong>No comprende, no siente, no te conoce.</strong></div>
     <div class="mt-3">Tratarla como persona es la trampa: por eso creemos su "¡tienes razón!" y delegamos el criterio.</div>
   </div>
 </div>
@@ -315,7 +315,7 @@ layout: ac-diagram
     <div class="darrow" style="width:44px"></div>
     <div class="dbox"><div class="dt">Alucina</div><div class="ds">inventa con seguridad</div></div>
     <div class="dcol"><div class="dcap mb-1">por eso</div><div class="darrow" style="width:44px"></div></div>
-    <div class="dbox dbox-hi"><span class="i-lucide-search-check w-6 h-6 text-blue" /><div class="dt">TÚ verificas</div></div>
+    <div class="dbox dbox-hi"><Ico name="search-check" class="w-6 h-6 text-blue" /><div class="dt">TÚ verificas</div></div>
   </div>
 </div>
 <div class="text-[1.25rem] text-ink mt-8 text-center max-w-4xl mx-auto">El criterio no se delega a algo que no distingue verdad de verosimilitud.</div>
@@ -354,10 +354,10 @@ layout: ac-diagram
 
 <div class="slide-body">
 <div class="grid grid-cols-2 gap-5 text-[1.3rem] text-ink">
-  <div class="ac-card p-6"><span class="i-lucide-lock w-7 h-7 text-blue" /><div class="mt-2"><strong>Privacidad:</strong> qué datos entran (y cuáles nunca).</div></div>
-  <div class="ac-card p-6"><span class="i-lucide-gavel w-7 h-7 text-blue" /><div class="mt-2"><strong>Regulación:</strong> qué se permite y qué se declara.</div></div>
-  <div class="ac-card p-6"><span class="i-lucide-scale w-7 h-7 text-blue" /><div class="mt-2"><strong>Derechos:</strong> transparencia y decisiones humanas.</div></div>
-  <div class="ac-card p-6"><span class="i-lucide-badge-check w-7 h-7 text-blue" /><div class="mt-2"><strong>Verificación:</strong> el hábito que sostiene todo.</div></div>
+  <div class="ac-card p-6"><Ico name="lock" class="w-7 h-7 text-blue" /><div class="mt-2"><strong>Privacidad:</strong> qué datos entran (y cuáles nunca).</div></div>
+  <div class="ac-card p-6"><Ico name="gavel" class="w-7 h-7 text-blue" /><div class="mt-2"><strong>Regulación:</strong> qué se permite y qué se declara.</div></div>
+  <div class="ac-card p-6"><Ico name="scale" class="w-7 h-7 text-blue" /><div class="mt-2"><strong>Derechos:</strong> transparencia y decisiones humanas.</div></div>
+  <div class="ac-card p-6"><Ico name="badge-check" class="w-7 h-7 text-blue" /><div class="mt-2"><strong>Verificación:</strong> el hábito que sostiene todo.</div></div>
 </div>
 </div>
 
@@ -415,7 +415,7 @@ layout: ac-diagram
 
 <div class="slide-body">
 <table class="actable">
-  <thead><tr><th>Qué mirar</th><th><span class="i-simple-icons-openai w-5 h-5 align-middle" /> ChatGPT</th><th><span class="i-simple-icons-claude w-5 h-5 align-middle" /> Claude</th><th><span class="i-simple-icons-googlegemini w-5 h-5 align-middle" /> Gemini</th></tr></thead>
+  <thead><tr><th>Qué mirar</th><th><Ico name="openai" class="w-5 h-5 align-middle" /> ChatGPT</th><th><Ico name="claude" class="w-5 h-5 align-middle" /> Claude</th><th><Ico name="googlegemini" class="w-5 h-5 align-middle" /> Gemini</th></tr></thead>
   <tbody>
     <tr><th>Lee (multimodal)</th><td>texto, imagen, PDF, voz</td><td>texto, imagen, PDF</td><td>texto, imagen, PDF, audio, video</td></tr>
     <tr><th>Genera imágenes</th><td class="yes">Sí</td><td class="no">No</td><td class="yes">Sí</td></tr>
@@ -469,11 +469,11 @@ cuando la IA entra. Como la calculadora: no la prohibimos, cambiamos qué evalu�
 
 <div class="slide-body">
 <div class="grid grid-cols-2 gap-4 text-[1.15rem] text-ink">
-  <div class="ac-card p-5"><span class="i-lucide-mic w-6 h-6 text-blue" /><div class="mt-1"><strong>Defensa oral.</strong> "Explica tus decisiones" en 3 min. <span class="text-muted">Mide criterio.</span></div></div>
-  <div class="ac-card p-5"><span class="i-lucide-notebook-pen w-6 h-6 text-blue" /><div class="mt-1"><strong>Bitácora de proceso.</strong> Borradores y cambios de idea. <span class="text-muted">Mide metacognición.</span></div></div>
-  <div class="ac-card p-5"><span class="i-lucide-search-x w-6 h-6 text-blue" /><div class="mt-1"><strong>Critica a la IA.</strong> Señala qué inventó y qué le falta. <span class="text-muted">Mide verificación.</span></div></div>
-  <div class="ac-card p-5"><span class="i-lucide-network w-6 h-6 text-blue" /><div class="mt-1"><strong>Proyecto que conecta.</strong> Un problema real, varias fuentes y materias. <span class="text-muted">Mide síntesis.</span></div></div>
-  <div class="ac-card p-5 col-span-2"><span class="i-lucide-video w-6 h-6 text-blue" /><div class="mt-1"><strong>Entregable multimodal.</strong> Un short, un podcast o una infografía, con un guion que justifique tus decisiones. <span class="text-muted">Mide creatividad, comunicación y criterio.</span></div></div>
+  <div class="ac-card p-5"><Ico name="mic" class="w-6 h-6 text-blue" /><div class="mt-1"><strong>Defensa oral.</strong> "Explica tus decisiones" en 3 min. <span class="text-muted">Mide criterio.</span></div></div>
+  <div class="ac-card p-5"><Ico name="notebook-pen" class="w-6 h-6 text-blue" /><div class="mt-1"><strong>Bitácora de proceso.</strong> Borradores y cambios de idea. <span class="text-muted">Mide metacognición.</span></div></div>
+  <div class="ac-card p-5"><Ico name="search-x" class="w-6 h-6 text-blue" /><div class="mt-1"><strong>Critica a la IA.</strong> Señala qué inventó y qué le falta. <span class="text-muted">Mide verificación.</span></div></div>
+  <div class="ac-card p-5"><Ico name="network" class="w-6 h-6 text-blue" /><div class="mt-1"><strong>Proyecto que conecta.</strong> Un problema real, varias fuentes y materias. <span class="text-muted">Mide síntesis.</span></div></div>
+  <div class="ac-card p-5 col-span-2"><Ico name="video" class="w-6 h-6 text-blue" /><div class="mt-1"><strong>Entregable multimodal.</strong> Un short, un podcast o una infografía, con un guion que justifique tus decisiones. <span class="text-muted">Mide creatividad, comunicación y criterio.</span></div></div>
 </div>
 </div>
 
@@ -578,10 +578,10 @@ autorreporte de quienes ya la usan semanalmente (solo ~1 de 3). Las "recetas" va
 
 <div class="slide-body">
 <div class="grid grid-cols-2 gap-5 text-[1.3rem] text-ink">
-  <div class="ac-card p-6"><span class="i-lucide-users w-7 h-7 text-blue" /><div class="mt-1">Mentalidad centrada en lo humano</div></div>
-  <div class="ac-card p-6"><span class="i-lucide-scale w-7 h-7 text-blue" /><div class="mt-1">Ética de la IA</div></div>
-  <div class="ac-card p-6"><span class="i-lucide-wrench w-7 h-7 text-blue" /><div class="mt-1">Técnicas y aplicaciones</div></div>
-  <div class="ac-card p-6"><span class="i-lucide-pen-tool w-7 h-7 text-blue" /><div class="mt-1">Diseño con IA</div></div>
+  <div class="ac-card p-6"><Ico name="users" class="w-7 h-7 text-blue" /><div class="mt-1">Mentalidad centrada en lo humano</div></div>
+  <div class="ac-card p-6"><Ico name="scale" class="w-7 h-7 text-blue" /><div class="mt-1">Ética de la IA</div></div>
+  <div class="ac-card p-6"><Ico name="wrench" class="w-7 h-7 text-blue" /><div class="mt-1">Técnicas y aplicaciones</div></div>
+  <div class="ac-card p-6"><Ico name="pen-tool" class="w-7 h-7 text-blue" /><div class="mt-1">Diseño con IA</div></div>
 </div>
 <div class="mt-5 keyidea text-[1.2rem]"><span class="lbl">Marco UNESCO docentes (español, 2026)</span>Pensamiento crítico, verificar, y <em>mantener la agencia humana.</em></div>
 </div>
