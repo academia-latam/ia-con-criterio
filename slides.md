@@ -43,8 +43,8 @@ dark: true
     <div class="mt-4 text-[1.05rem]" style="color:rgba(255,255,255,0.72)">Y su uso ya es muy desigual entre países: gran parte de América Latina está por debajo de lo esperado. <span class="text-yellow">Índice Económico de Anthropic (2026).</span></div>
   </div>
   <div>
-    <ComputeChart />
-    <div class="mt-3 kicker">Cómputo para entrenar IA · escala log · se duplica cada ~6 meses</div>
+    <div class="bg-white p-3" style="border:1px solid rgba(255,255,255,0.18)"><Img src="img/owid-ai-compute.png" alt="El cómputo para entrenar IA crece exponencialmente" /></div>
+    <div class="mt-3 kicker">Cómputo para entrenar IA · se duplica cada ~6 meses</div>
   </div>
 </div>
 
