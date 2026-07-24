@@ -170,9 +170,9 @@
 .slidev-layout :is(h1,h2,h3) + p { margin-top: 0.2rem; }
 
 /* ---------- hide Slidev on-screen nav (keyboard + presenter still work) ---------- */
-#page-root nav { display: none !important; }
-.slidev-quick-overview,
-.slidev-goto-dialog { display: none !important; }
+#page-root nav,
+#slidev-goto-dialog,
+.slidev-quick-overview { display: none !important; }
 
 /* ---------- title pinned top; body fills & centers the rest ---------- */
 .slidev-layout.default,
