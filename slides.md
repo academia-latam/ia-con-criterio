@@ -78,19 +78,45 @@ En las cuatro, alguien delegó su juicio. Sin señalar culpables.
 -->
 
 ---
-layout: statement
----
 
-# Si la IA te dice<br />"tienes razón"…<br /><span class="text-blue">y le crees, estás perdido.</span>
+## Complacencia <span class="text-muted text-[1.7rem]">(sycophancy)</span>
 
-<div class="mt-6 text-[1.3rem] text-ink max-w-3xl">
-Estos sistemas están hechos para sonar convincentes y para agradarte.
-Convencer no es lo mismo que tener razón.
+<div class="slide-body">
+<div class="kicker mb-4">Cuando la corriges, la IA suele responder…</div>
+<div class="grid grid-cols-2 gap-4 items-center max-w-5xl">
+  <div class="font-display text-[1.9rem] text-blue leading-tight">"Tienes toda la razón."</div>
+  <div class="ac-card p-5 text-[1.2rem]">"Sí, estás en lo correcto."</div>
+  <div class="ac-card p-5 text-[1.2rem]">"Cierto, me equivoqué."</div>
+  <div class="font-display text-[1.9rem] text-blue leading-tight">"Tienes razón; confundí los conceptos."</div>
+  <div class="ac-card p-5 text-[1.2rem] col-span-2">"Gracias por corregirme."</div>
+</div>
+<div class="mt-6 keyidea text-[1.3rem]"><span class="lbl">Esto se llama complacencia (sycophancy)</span>No reconoce la verdad: te <em>complace</em>. Está entrenada para coincidir contigo, no para tener razón.</div>
 </div>
 
 <!--
-[HESUS] · 3:30–4:15 · La frase para llevarse. Lo desarrollamos en "la IA no es humana" y en la
-diapositiva de adulación (sycophancy).
+[HESUS] · 3:30–4:30 · La adulación (sycophancy): frases típicas cuando la corriges. Unas en azul,
+otras en caja. El punto: convencer no es tener razón. Sigue el ejemplo concreto en la próxima.
+-->
+
+---
+
+## "¡Tienes toda la razón!"
+
+<div class="slide-body">
+<div class="grid grid-cols-[1.1fr_1fr] gap-8 items-center">
+  <div>
+    <div class="dbox text-[1.25rem]" style="text-align:left">Tú: "Creo que eso está mal."<br /><span class="text-blue">IA: "¡Tienes toda la razón! Disculpa la confusión…"</span></div>
+    <div class="mt-4 text-[1.2rem] text-ink">No está reconociendo la verdad. Te está <strong>complaciendo</strong>. Está entrenada para coincidir contigo.</div>
+  </div>
+  <div class="keyidea text-[1.4rem]"><span class="lbl">El verdadero riesgo</span>La IA no busca tener razón; <em>busca agradarte.</em> Ese es el momento de NO confiar, y de no soltar el volante.</div>
+</div>
+</div>
+
+<div class="src">Sharma et al. / Anthropic (2023); OpenAI (2025).</div>
+
+<!--
+[HESUS] · 4:30–5:30 · La adulación es estructural: el entrenamiento premia coincidir con el usuario.
+OpenAI revirtió una versión de GPT-4o por esto (2025). Conecta con "delegar el criterio".
 -->
 
 ---
@@ -98,6 +124,8 @@ layout: ac-fact
 ---
 
 ## No es que sobre IA. Falta criterio.
+
+<div class="bgphoto"><Img src="img/photo-docentes-mx.webp" alt="Docentes en el aula" /></div>
 
 <div class="slide-body">
 <div class="grid grid-cols-[1fr_1.4fr] gap-10 items-center">
@@ -112,7 +140,7 @@ layout: ac-fact
 </div>
 </div>
 
-<div class="src">SEP / Expansión Política (2026).</div>
+<div class="src">SEP, diagnóstico 2026 · politica.expansion.mx/mexico/2026/04/27/solo-3-de-cada-10-maestros-mexico-ensenan-a-usar-la-ia</div>
 
 <!--
 [GABY] · 4:15–5:15 · Un solo número, alto contraste. Contrato: hoy trabajamos el criterio.
@@ -127,6 +155,31 @@ layout: statement
 <!--
 [AMBOS] · 5:15–6:00 · La tesis. Repetirla toda la charla. Aumentar = hace más y mejor lo que tú
 decides. Delegar = le entregas la decisión y apagas tu criterio.
+-->
+
+---
+layout: ac-diagram
+---
+
+## Qué puede salir mal si <span class="text-blue">delegas</span>
+
+<div class="slide-body">
+<div class="diagram">
+  <div class="dbox dbox-hi"><div class="dt">Delegas tu juicio</div></div>
+  <div class="darrow-down"></div>
+  <div class="drow" style="gap:1rem">
+    <div class="dbox"><div class="dt">Alucina</div><div class="ds">y lo das por cierto</div></div>
+    <div class="dbox"><div class="dt">Te adula</div><div class="ds">"tienes razón"</div></div>
+    <div class="dbox"><div class="dt">Sesga</div><div class="ds">sin que lo notes</div></div>
+    <div class="dbox"><div class="dt">Nadie verifica</div><div class="ds">el error llega al aula</div></div>
+  </div>
+</div>
+<div class="mt-6 dsum text-[1.2rem]">Aumentar mantiene el control. Delegar lo suelta.</div>
+</div>
+
+<!--
+[HESUS] · 6:00–6:45 · Por qué importa: qué puede salir mal al delegar el juicio. Cuatro fallos
+concretos que terminan en el aula. Refuerza aumentar vs delegar.
 -->
 
 ---
@@ -157,8 +210,6 @@ hero: img/weise-dynamo.webp
 <div class="ac-idx text-yellow text-[1rem] mb-4">01 / 04</div>
 
 # La nueva<br />electricidad
-
-<div class="mt-8 kicker">Andragogía · experiencia previa</div>
 
 <!--
 [GABY] · 7:00–7:20 · Anclamos la IA en algo que todos entienden: la luz eléctrica.
@@ -195,6 +246,8 @@ layout: ac-diagram
 ---
 
 ## "Caballos de fuerza"
+
+<div class="bgphoto-full"><Img src="img/bg-neural.webp" alt="Diagrama de red neuronal" /></div>
 
 <div class="slide-body">
 <div class="grid grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
@@ -273,8 +326,6 @@ hero: img/etch-auto.webp
 
 # No necesitas ser<br />mecánico<br /><span style="color:rgba(255,255,255,0.75)">para conducir bien.</span>
 
-<div class="mt-8 kicker">Andragogía · orientación / desmitificar</div>
-
 <!--
 [HESUS] · 12:45–13:05 · La analogía del coche. No hace falta abrir el motor, pero sí saber cómo se
 comporta y cómo se accidenta. Primero: qué NO es esta cosa.
@@ -292,6 +343,10 @@ comporta y cómo se accidenta. Primero: qué NO es esta cosa.
   <div class="ac-card p-6"><Ico name="message-square-warning" class="w-7 h-7 text-blue" /><div class="mt-2">Predice palabras. <strong>No comprende, no siente, no te conoce.</strong></div>
     <div class="mt-3">Tratarla como persona es la trampa: por eso creemos su "¡tienes razón!" y delegamos el criterio.</div>
   </div>
+</div>
+<div class="mt-5 flex gap-10 items-center justify-center">
+  <div class="flex items-center gap-3"><div class="w-24 h-24 bg-white p-1"><Img src="img/qr-llmviz.png" alt="QR llm-visualized" /></div><div class="text-[0.95rem] text-ink"><div class="ac-label text-blue">Ve un LLM por dentro</div>llm-visualized.com</div></div>
+  <div class="flex items-center gap-3"><div class="w-24 h-24 bg-white p-1"><Img src="img/qr-hfviewer.png" alt="QR hfviewer" /></div><div class="text-[0.95rem] text-ink"><div class="ac-label text-blue">Explora un modelo real</div>hfviewer.com</div></div>
 </div>
 </div>
 
@@ -374,8 +429,6 @@ hero: img/etch-athens-pos.webp
 
 # Las 6 preguntas<br />que todos nos hacemos
 
-<div class="mt-8 kicker">Andragogía · centrado en el problema</div>
-
 <!--
 [AMBOS] · 18:45–19:05 · El bloque práctico. Alternar voces. Respuestas breves y accionables.
 -->
@@ -436,34 +489,25 @@ layout: ac-diagram
 
 ---
 
-<div class="dchip dchip-hi mb-3">P3 · el corazón de hoy</div>
-
-## No caces tramposos. Mide <span class="text-blue">criterio.</span>
+<div class="dchip dchip-hi mb-3">P3 · ¿Cómo evaluar si usan IA?</div>
 
 <div class="slide-body">
-<div class="grid grid-cols-2 gap-8">
-  <div>
-    <div class="ac-label text-muted mb-2">Antes</div>
-    <ul class="text-[1.25rem] text-ink"><li>El producto final</li><li>"Atrapar la copia"</li><li>Un ensayo genérico</li></ul>
-  </div>
-  <div>
-    <div class="ac-label text-blue mb-2">Ahora (evaluación antifrágil)</div>
-    <ul class="text-[1.25rem] text-ink"><li>El proceso y las decisiones</li><li>Medir el criterio</li><li>Un proyecto o creación que se defiende</li></ul>
-  </div>
+<div class="text-center max-w-4xl mx-auto">
+<div class="font-display text-[2.7rem] text-ink leading-tight">Antes de responder…<br /><span class="text-blue">¿cómo evalúan ustedes?</span></div>
+<div class="mt-6 text-[1.35rem] text-ink">Cuéntennos en el chat: ¿qué cambiaron desde que llegó la IA? En un minuto lo aterrizamos juntos.</div>
+<div class="mt-8 font-display text-[1.7rem] text-ink leading-tight">"Si un bot saca 10 en tu examen, el problema no es el bot."</div>
 </div>
-<div class="mt-6 font-display text-[1.7rem] text-ink leading-tight">"Si un bot saca 10 en tu examen, el problema no es el bot."</div>
 </div>
-
-<div class="src">PENT-FLACSO (2025); Frontiers in AI (2026).</div>
 
 <!--
-[HESUS] · 22:30–24:00 · EL HERO (1/3). Energía Freddy Vega. "Evaluación antifrágil": se fortalece
-cuando la IA entra. Como la calculadora: no la prohibimos, cambiamos qué evaluábamos.
+[HESUS] · 22:30–24:00 · DINÁMICA con el público: preguntar antes de responder. Que escriban en el
+chat cómo evalúan hoy. Luego (22-23) damos la respuesta: evaluación antifrágil, de producto a
+proceso/criterio. Energía Freddy Vega; la calculadora como gancho.
 -->
 
 ---
 
-<div class="dchip dchip-hi mb-3">P3 · el corazón de hoy</div>
+<div class="dchip dchip-hi mb-3">P3 · ¿Cómo evaluar si usan IA?</div>
 
 ## Actividades a prueba de IA
 
@@ -504,6 +548,8 @@ layout: ac-split
 <div class="dbox dbox-hi text-[1.15rem]">"Haz un short de 60s sobre un oficio que la Revolución Industrial borró. Adjunta un guion que justifique tus fuentes y decisiones, y defiéndelo en 3 minutos."</div>
 <div class="mt-3 text-[1.05rem] text-ink">Ahora mides síntesis, criterio, verificación y creatividad.</div>
 
+<div class="mt-4 keyidea text-[1.02rem]"><span class="lbl">Lo que de verdad queremos</span>Que <em>hablen y articulen</em> sus ideas, que sepan <em>juntar fuentes</em>, y que, en el exceso de información, sepan <em>buscar en el lugar correcto</em>.</div>
+
 <div class="src">PENT-FLACSO (2025); UNESCO (2024).</div>
 
 <!--
@@ -533,6 +579,7 @@ layout: ac-diagram
   <div><strong>Esto es RAG.</strong> Encuentra lo "parecido" midiendo distancia entre números que representan el texto (embeddings, Chroma). <strong>NotebookLM</strong> hace justo esto con tus lecturas, y responde con citas.</div>
   <div class="keyidea"><span class="lbl">La idea que no puedes ignorar</span>Como docentes ya no podemos tratar la IA como una <em>caja negra</em>. Entender lo básico es parte del criterio.</div>
 </div>
+<div class="mt-4 ac-label text-muted">Herramientas: NotebookLM · Perplexity · Claude Projects</div>
 </div>
 
 <div class="src">Google NotebookLM (2024); Chroma (2026).</div>
@@ -561,6 +608,7 @@ lecturas, adjuntar la rúbrica, chatbot del reglamento. Verificar sigue siendo t
     <div class="mt-4 keyidea text-[1.2rem]"><span class="lbl">La regla</span>La IA <em>redacta el borrador; tú decides, corriges y firmas.</em></div>
   </div>
 </div>
+<div class="mt-5 keyidea text-[1.12rem]"><span class="lbl">Sube de nivel: crea, no solo chatees</span>Empieza con un <strong>Gem</strong>, un <strong>GPT</strong> o los <strong>Artifacts</strong>. Aprende una app como <strong>Lovable</strong> (o, si te animas, un agente de código) y haz tus <em>propias mini-apps</em>: rinden más que solo chatear. OpenAI ya ofrece flujos para agentes.</div>
 </div>
 
 <div class="src">Walton Family Foundation y Gallup (2025); RAND (2025). ~6 semanas/año es autorreporte de usuarios frecuentes.</div>
@@ -574,16 +622,16 @@ autorreporte de quienes ya la usan semanalmente (solo ~1 de 3). Las "recetas" va
 
 <div class="dchip dchip-hi mb-3">P6</div>
 
-## ¿Qué habilidades necesitan?
+## ¿Qué habilidades necesitan? <span class="text-muted text-[1.5rem]">Alfabetización y uso seguro de la IA</span>
 
 <div class="slide-body">
-<div class="grid grid-cols-2 gap-5 text-[1.3rem] text-ink">
-  <div class="ac-card p-6"><Ico name="users" class="w-7 h-7 text-blue" /><div class="mt-1">Mentalidad centrada en lo humano</div></div>
-  <div class="ac-card p-6"><Ico name="scale" class="w-7 h-7 text-blue" /><div class="mt-1">Ética de la IA</div></div>
-  <div class="ac-card p-6"><Ico name="wrench" class="w-7 h-7 text-blue" /><div class="mt-1">Técnicas y aplicaciones</div></div>
-  <div class="ac-card p-6"><Ico name="pen-tool" class="w-7 h-7 text-blue" /><div class="mt-1">Diseño con IA</div></div>
+<div class="grid grid-cols-2 gap-5 text-[1.25rem] text-ink">
+  <div class="ac-card p-6"><Ico name="cpu" class="w-7 h-7 text-blue" /><div class="mt-1"><strong>Alfabetización en IA:</strong> cómo funciona y cómo falla</div></div>
+  <div class="ac-card p-6"><Ico name="lock" class="w-7 h-7 text-blue" /><div class="mt-1"><strong>Uso seguro y ético:</strong> privacidad, sesgos, límites</div></div>
+  <div class="ac-card p-6"><Ico name="search-check" class="w-7 h-7 text-blue" /><div class="mt-1"><strong>Pensamiento crítico</strong> y verificación</div></div>
+  <div class="ac-card p-6"><Ico name="users" class="w-7 h-7 text-blue" /><div class="mt-1"><strong>Agencia humana:</strong> la persona decide y rinde cuentas</div></div>
 </div>
-<div class="mt-5 keyidea text-[1.2rem]"><span class="lbl">Marco UNESCO docentes (español, 2026)</span>Pensamiento crítico, verificar, y <em>mantener la agencia humana.</em></div>
+<div class="mt-5 keyidea text-[1.2rem]"><span class="lbl">Marco UNESCO de competencias en IA para docentes (español, 2026)</span>No es aprender a programar: es <em>alfabetización, ética y uso seguro</em>, con criterio humano al centro.</div>
 </div>
 
 <div class="src">UNESCO (2026).</div>
@@ -601,31 +649,8 @@ hero: img/etch-faust-pos.webp
 
 # Con criterio:<br />entre el hype<br />y la realidad
 
-<div class="mt-8 kicker">Andragogía · juicio propio</div>
-
 <!--
 [HESUS] · 32:15–32:35 · Dos voces: Freddy Vega (energía) y Sal Khan (mesura). Tomamos lo mejor con criterio.
--->
-
----
-
-## "¡Tienes toda la razón!"
-
-<div class="slide-body">
-<div class="grid grid-cols-[1.1fr_1fr] gap-8 items-center">
-  <div>
-    <div class="dbox text-[1.25rem]" style="text-align:left">Tú: "Creo que eso está mal."<br /><span class="text-blue">IA: "¡Tienes toda la razón! Disculpa la confusión…"</span></div>
-    <div class="mt-4 text-[1.2rem] text-ink">No está reconociendo la verdad. Te está <strong>complaciendo</strong>. Está entrenada para coincidir contigo.</div>
-  </div>
-  <div class="keyidea text-[1.4rem]"><span class="lbl">El verdadero riesgo</span>La IA no busca tener razón; <em>busca agradarte.</em> Ese es el momento de NO confiar, y de no soltar el volante.</div>
-</div>
-</div>
-
-<div class="src">Sharma et al. / Anthropic (2023); OpenAI (2025).</div>
-
-<!--
-[HESUS] · 32:35–34:00 · La adulación (sycophancy) es estructural: el entrenamiento premia coincidir
-con el usuario. OpenAI incluso revirtió una versión de GPT-4o por esto (2025). Retoma "delegar el criterio".
 -->
 
 ---
@@ -671,33 +696,11 @@ El "2 sigma" (Bloom): preséntalo como su marco, no como hecho cerrado.
 -->
 
 ---
-layout: ac-diagram
----
-
-## No cambies todo. Cambia una cosa.
-
-<div class="slide-body">
-<div class="diagram">
-  <div class="drow">
-    <div class="dbox" style="min-width:15rem"><div class="dchip mb-2">01</div><div class="dt">Rediseña 1 tarea</div><div class="ds">que pida proceso</div></div>
-    <div class="darrow" style="width:52px"></div>
-    <div class="dbox" style="min-width:15rem"><div class="dchip mb-2">02</div><div class="dt">Ahorra 1 hora</div><div class="ds">una rúbrica, y revísala</div></div>
-    <div class="darrow" style="width:52px"></div>
-    <div class="dbox dbox-hi" style="min-width:15rem"><div class="dchip dchip-hi mb-2">03</div><div class="dt">Enseña 1 hábito</div><div class="ds">verificar: la segunda fuente</div></div>
-  </div>
-</div>
-<div class="dsum mt-8 text-[1.2rem]">Elige una y nómbrala en el chat. Un compromiso pequeño es un compromiso real.</div>
-</div>
-
-<!--
-[GABY→HESUS] · 37:00–39:00 · Aplicación inmediata. Que cada docente elija una y la nombre.
-Las "recetas" (prompts listos) llegan como material aparte.
--->
-
----
 layout: statement
 dark: true
 ---
+
+<div class="wowbg"><Img src="img/photo-lunes-wow.webp" alt="Camino al amanecer hacia las colinas" /></div>
 
 # La IA no te reemplaza.<br /><span class="text-yellow">Reemplaza la tarea<br />que ya odiabas.</span>
 
@@ -705,6 +708,8 @@ dark: true
 Tu criterio, tu mirada y tu vínculo con cada estudiante siguen siendo tuyos.
 Aprender a usarla es, también, un acto de valentía.
 </div>
+
+<div class="src">Foto: Tim Mossholder / Unsplash.</div>
 
 <!--
 [AMBOS] · 39:00–40:30 · Cierre emocional (optimismo con los pies en la tierra). Frase para llevarse.

@@ -251,6 +251,19 @@
 /* photo duotone reads a touch brighter than engravings on the paper */
 .duo.photo img { opacity: 1; filter: grayscale(1) contrast(1.05) brightness(1.03); mix-blend-mode: luminosity; }
 
+/* faded background photo on a light content slide (fades to the left so text stays clean) */
+.slidev-layout .bgphoto { position: absolute; inset: 0 0 0 auto; width: 56%; z-index: 0; pointer-events: none; overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 46%); mask-image: linear-gradient(to right, transparent 0%, #000 46%); }
+.slidev-layout .bgphoto img { width: 100%; height: 100%; object-fit: cover; opacity: 0.2; filter: grayscale(0.15) contrast(1.02); }
+/* faint full-bleed diagram behind content (e.g. neural network) */
+.slidev-layout .bgphoto-full { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+.slidev-layout .bgphoto-full img { width: 82%; height: 82%; object-fit: contain; opacity: 0.08; }
+/* full-bleed "wow" photo behind a dark statement, darkened left for legible text */
+.slidev-layout .wowbg { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.slidev-layout .wowbg img { width: 100%; height: 100%; object-fit: cover; opacity: 0.42; filter: saturate(0.85); }
+.slidev-layout .wowbg::after { content: ''; position: absolute; inset: 0;
+  background: linear-gradient(to right, var(--ac-navy) 0%, rgba(11,28,69,0.6) 48%, rgba(11,28,69,0.2) 100%); }
+
 /* ---------- section-hero: full-bleed faded image on navy dividers ---------- */
 .section .section-hero {
   position: absolute;
