@@ -31,25 +31,32 @@ La promesa en una frase: hoy sales con criterio, no con miedo. Gaby abre; Hesus 
 -->
 
 ---
+layout: statement
+dark: true
+---
 
-## La IA ya está aquí. No es una predicción.
-
-<div class="slide-body">
-<div class="grid grid-cols-[1.1fr_1fr] gap-10 items-center">
-  <div class="text-[1.35rem] text-ink">
-    Ya está en las tareas de tus estudiantes y en tus horas de planeación.
-    La pregunta no es <em>si</em>. Es <strong>con qué criterio</strong>.
-    <div class="mt-4 text-[1.15rem] text-muted">Mira la curva: la capacidad de la IA no deja de crecer.</div>
+<div class="grid grid-cols-[1.15fr_1fr] gap-12 items-center w-full">
+  <div>
+    <div class="font-display font-800 leading-none" style="font-size:3.9rem">La IA ya está aquí.</div>
+    <div class="font-display font-800 leading-none text-yellow mt-2" style="font-size:3.9rem">No es una predicción.</div>
+    <div class="mt-7 text-[1.4rem]" style="color:rgba(255,255,255,0.88)">Ya está en las tareas de tus estudiantes y en tus horas de planeación. La pregunta no es <em>si</em>. Es <strong>con qué criterio</strong>.</div>
+    <div class="mt-4 text-[1.05rem]" style="color:rgba(255,255,255,0.72)">Y su uso ya es muy desigual entre países: gran parte de América Latina está por debajo de lo esperado. <span class="text-yellow">Índice Económico de Anthropic (2026).</span></div>
   </div>
-  <div class="duo photo w-full"><Img src="img/owid-ai-compute.png" alt="El cómputo usado para entrenar IA crece exponencialmente" /></div>
-</div>
+  <div>
+    <ComputeChart />
+    <div class="mt-3 kicker">Cómputo para entrenar IA · escala log · se duplica cada ~6 meses</div>
+  </div>
 </div>
 
-<div class="src">Our World in Data (s. f.), CC BY 4.0.</div>
+<div class="src">Datos: Epoch AI / Our World in Data (CC BY 4.0).</div>
 
 <!--
 [GABY] · 0:30–2:00 · Knowles: necesidad de saber. Técnica Freddy Vega: abrir con una confesión
-honesta (un tropiezo real con la tecnología), no con el currículum. La curva OWID aterriza "ya está".
+honesta (un tropiezo real con la tecnología), no con el currículum. La curva aterriza "ya está y avanza".
+Índice Económico de Anthropic (2026), uso por país vs. población en edad de trabajar: Israel 4.9x,
+Singapur 4.2x, EE.UU. 3.7x; Bolivia 0.48, India 0.27, Nigeria 0.2, y gran parte de América Latina/África
+por debajo de 1x. Correlaciona con el ingreso (1% más de PIB per cápita ≈ 0.7% más de uso). Sembrar la
+brecha que retomamos al final: si olvidamos a quien no tiene acceso, la ampliamos.
 -->
 
 ---
@@ -749,6 +756,7 @@ Aprender a usarla es, también, un acto de valentía.
   <div>UNESCO. (2026). <em>Marcos de competencias en IA para estudiantes y docentes.</em></div>
   <div>Walton Family Foundation &amp; Gallup. (2025). <em>Teaching for tomorrow: Unlocking six weeks a year with AI.</em></div>
   <div>Our World in Data. (s. f.). <em>Computation used to train notable AI systems</em> (CC BY 4.0).</div>
+  <div>Anthropic. (2026). <em>Anthropic Economic Index: uso por país.</em> anthropic.com/economic-index</div>
 </div>
 </div>
 
